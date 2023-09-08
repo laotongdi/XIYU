@@ -1,0 +1,7 @@
+.nav-item {
+    border-bottom: 2px solid #fff;
+  }
+
+  .nav-item:hover {
+    border-bottom: 2px solid #d9781e;
+  }

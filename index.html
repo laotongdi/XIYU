@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>主页</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/top.css">
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <style>
+    .dahao00 {
+      font-size: 40pt;
+    }
+    @media screen and (max-width:576px) {
+      .xxx {
+        height: 1050px;
+      }
+      .ttt {
+        margin-top: 18%;
+      }
+    }
+
+    @media screen and (min-width:577px) {
+      .xxx {
+        height: 800px;
+      }
+      .ttt {
+        margin-top: 15%;
+      }
+    }
+
+    @media screen and (min-width:768px) {
+      .xxx {
+        height: 700px;
+      }
+      .ttt {
+        margin-top: 12%;
+      }
+    }
+    @media screen and (min-width:992px) {
+      .xxx {
+        height: 600px;
+      }
+      .ttt {
+        margin-top: 9%;
+      }
+    }
+    @media screen and (min-width:1200px) {
+      .dahao {
+        font-size: 90px;
+      }
+
+      .dahao00 {
+        font-size: 60pt;
+      }
+
+      .xxx {
+        height: 750px;
+      }
+      .ttt {
+        margin-top: 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--  -->
+  <div class="container-fluid pl-0 pr-0">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img class="img-fluid h-100" src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse pl-5" id="collapsibleNavbar">
+        <ul class="navbar-nav navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link pb-1" href="#">公司介绍<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pb-1" href="./pages/list.html" target="_blank">活动拍摄片</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pb-1" href="./pages/list.html" target="_blank">升级宣传片</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pb-1" href="./pages/list.html" target="_blank">高端宣传片</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pb-1" href="./pages/list.html" target="_blank">创意宣传片</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pb-1" href="./pages/list.html" target="_blank">文案赏析</a>
+          </li>
+        </ul>
+        <div class="ml-auto d-md-none d-lg-block">
+          <img src="./images/phone.png" alt="">
+          <spam class="text-warning" style="font-size: 14pt;">400-6321-586</spam>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--  -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/banner.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/banner02.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/banner03.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/banner04.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+  <!--  -->
+  <div class="container">
+    <div class="text-center mb-5 mt-3">
+      <h3>服务项目</h3>
+      <span class="text-black-50">我们将与您一起创造一个愉快的活动拍摄剪辑合作体验。</span>
+    </div>
+    <div>
+      <div class="row row-cols-2 row-cols-lg-5">
+        <div class="col mb-4">
+          <div class="card h-100 border-danger rounded-0">
+            <div class="media border-bottom border-danger mx-3 py-5">
+              <img src="./images/fw01.png" class="card-img-top w-25 h-35 mx-auto d-block align-self-center mt-5"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">活动拍摄片</h5>
+              <p class="card-text">ACTIVITY FILLM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 border-danger rounded-0">
+            <div class="media border-bottom border-danger mx-3 py-5">
+              <img src="./images/fw02.png" class="card-img-top w-25 h-35 mx-auto d-block align-self-center mt-5"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">标准宣传片</h5>
+              <p class="card-text">STANDARD PROMO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 border-danger rounded-0">
+            <div class="media border-bottom border-danger mx-3 py-5">
+              <img src="./images/fw03.png" class="card-img-top w-25 h-35 mx-auto d-block align-self-center mt-5"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">升级拍摄片</h5>
+              <p class="card-text">PROMOTON VIDEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 border-danger rounded-0">
+            <div class="media border-bottom border-danger mx-3 py-5">
+              <img src="./images/fw04.png" class="card-img-top w-25 h-35 mx-auto d-block align-self-center mt-5"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">高端拍摄片</h5>
+              <p class="card-text">HIGHEND PROMOTIONAKFUKN</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 border-danger rounded-0">
+            <div class="media border-bottom border-danger mx-3 py-5">
+              <img src="./images/fw05.png" class="card-img-top w-25 h-35 mx-auto d-block align-self-center mt-5"
+                alt="...">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">创意拍摄片</h5>
+              <p class="card-text">CREATVE PROMOTIONAL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div>
+      <div class="text-center mb-5 mt-3">
+        <h1 class="text-muted dahao00">COMPANY INTRODUCTION</h1>
+        <h3>戏语金方之文案赏析</h3>
+        <span class="text-black-50">我们将与您一起创造一个愉快的活动拍摄剪辑合作体验。</span>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card h-100" style="border: 0;">
+                <img src="./images/01.png" class="card-img-top" alt="...">
+                <div class="card-body py-2">
+                  <p class="card-text text-primary text-center" style="font-size: 10pt;">smithfield培根-TVC广告</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100" style="border: 0;">
+                <img src="./images/01.png" class="card-img-top" alt="...">
+                <div class="card-body py-2">
+                  <p class="card-text text-primary text-center" style="font-size: 10pt;">smithfield培根-TVC广告</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100" style="border: 0;">
+                <img src="./images/01.png" class="card-img-top" alt="...">
+                <div class="card-body py-2">
+                  <p class="card-text text-primary text-center" style="font-size: 10pt;">smithfield培根-TVC广告</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100" style="border: 0;">
+                <img src="./images/01.png" class="card-img-top" alt="...">
+                <div class="card-body py-2">
+                  <p class="card-text text-primary text-center" style="font-size: 10pt;">smithfield培根-TVC广告</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item pl-5 pt-0 pb-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 31%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+            <li class="list-group-item pl-5 py-1"
+              style="position: relative;border: 1px dashed rgba(0,0,0,.125);border-width: 0 0 2px;">
+              <p class="d-inline-block rounded-circle mr-3 mb-0"
+                style="border: 3px solid #747070;position: absolute;top: 47%;left: 5%;"> </p>
+              01 美摄视觉资深摄影师教您学习拍摄美食
+              <span class="float-right text-muted">2022-06-09</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center py-5">
+        <button type="button" class="btn btn-outline-secondary rounded-0 px-5">查看更多</button>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="my-4 pt-4 pb-5" style="background: url(./images/about.png);background-size: cover;">
+    <div class="text-center my-5">
+      <span class="text-white h4 pb-3" style="border-bottom: 2px dashed #625f5f;">上海戏语金方广告有限公司的<span
+          class="text-danger">核心价值</span></span>
+    </div>
+    <div class="container text-white m-auto px-5">
+      <ul class="list-inline" style="text-indent: 1.5em;line-height: 35px;">
+        <li>
+          <p class="d-inline-block mb-1" style="border: 3px solid #ccc;border-radius: 50%;"></p>
+          上海戏语金方广告有限公司的核心价值之一在于，业务团队、创作团队、制作团队高度融合。
+          跟你洽谈影片制作的业务人员本身就是公司的创作核心、制作核心方便客户企业对整个影片拍摄制作过程进行更方便、快捷的稳妥掌控。
+        </li>
+        <li>
+          <p class="d-inline-block mb-1" style="border: 3px solid #ccc;border-radius: 50%;"></p>
+          上海戏语金方广告有限公司的核心价值之二在于自有SNOY系列设备多套。
+          强大的硬件实力才是为客户提供更高性价比视频拍摄制作服务的核心保证。
+          让拍摄制作时间更灵活、更方便，大幅度的满足客户企业的个性化拍摄制作需求。
+        </li>
+        <li>
+          <p class="d-inline-block mb-1" style="border: 3px solid #ccc;border-radius: 50%;"></p>
+          上海戏语金方广告有限公司的核心价值之二在于自有后期制作团队，强大的后期制作团队有着独到的服务理念。
+          那就是站在客户实际应用的角度考虑影片的特效制作，在后期制作过程中全力配合客户企业领导对影片制作提出的崭新想法。
+          从而让客户企业的方方面面都对制作完成的视频影片高度满意。
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7">
+        <h1 class="text-black-50 dahao">ACTIVITY</h1>
+        <h4 class="border-danger pb-4 mb-4" style="border-bottom: 2px dashed;"><span
+            class="text-danger">戏语金方</span>之活动拍摄片</h4>
+        <div style="text-indent: 2em;line-height: 35px;">
+          <p class="mb-1">
+            动拍摄，对于戏语金方企业宣传视频制作超市跟您的关系而言，
+            只是一个开始，因为在我们看来，活动拍摄是您了解我们，对于宣传片制作、广告片拍摄持什么样态度的窗口。
+          </p>
+          <p class="mb-0">
+            我们坚信，活动拍摄只是我们彼此支持的开始。只有活动拍摄做好了，您可能会愿意坐下来听我们聊聊关于您企业的影像系统的打造方法。
+            为此，我们一直保持努力。因此，当您有一些招商活动，需要现场招商影片的拍摄，用来当做年终总结的素材时；
+            或者您跟您的团队有一些特别的公益活动拍摄、团队拓展活动拍摄时，并打算将这些活动感动的点进行记录，并剪辑成为一个小的视频时；
+            或者当年的公司举行庆典、年会以及各种特别值得纪念保留的活动时，您都可以联系我们。我们将与您一起创造一个愉快的活动拍摄剪辑合作体验。
+          </p>
+          <a class="text-dark" style="text-decoration: underline;" href="#">查看更多</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 pt-4">
+        <img class="w-100" src="./images/02.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="my-4 pt-4 pb-5" style="background: url(./images/xc-back.png);background-size: 100% 30%;background-repeat: no-repeat;">
+    <div class="container bg-white ttt">
+      <div class="text-center my-4 pt-5">
+        <h3>戏语金方之<span class="text-danger">标准宣传片</span></h3>
+        <span class="text-black-50">我们将与您一起创造一个愉快的活动拍摄剪辑合作体验。</span>
+      </div>
+      <div class="w-75 m-auto" style="border-radius: 0;">
+        <div class="border p-5" style="text-indent: 2em;">
+          <p class="mb-0">
+            在戏语金方团队多年服务客户的过程中，我们发现客户企业处在不同发展阶段，对企业的宣传视频有不同的制作要求。
+          </p>
+          <p class="mb-0">
+            例如：我们公司想稍微做一条企业宣传片，解决有和没有的问题，要求不是特别高。
+          </p>
+          <p class="mb-0">
+            我们企业目前规模不是很大，还在发展上升阶段，需要一条宣传片做适当的包装介绍，方便与客户的沟通。
+          </p>
+          <p class="mb-0">
+            我们企业新开发了一个项目，要去展会路演融资用，需要用素材剪辑描绘下项目的前景。
+          </p>
+          <p class="mb-0">
+            公司新开发了一个产品，很有卖点，但是产品目前还拍不到，需要用动画或者三维特效的方式把产品的功能价值点讲述清楚
+          </p>
+          <p class="mb-0">
+            我们是比较时尚潮流的企业，想做一些简单不一样的宣传片，可能就是干干净净的公司画面，老板和技术人员对着镜头讲述我们的产品和服务就达到效果了。
+          </p>
+          <p class="mb-0">
+            戏语金方曾多次满足过不同客户的上述类似需求，因此懂得客户制作这条影片的目的初衷，即使制作时间通常显得不那么宽裕。但我们已经做好了让您满意的准备。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="container">
+    <div>
+      <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 px-5">
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/03.png" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">诺优能的家</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/03.png" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">诺优能的家</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/03.png" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">诺优能的家</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/03.png" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">诺优能的家</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/03.png" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">诺优能的家</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/03.png" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">诺优能的家</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="container-fluid" style="background: url(./images/xc-box.png);background-size: cover;">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-12 col-lg-4 pt-5 text-center">
+          <img src="./images/xc01.png" alt="">
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="pl-5 ml-5">
+            <img src="./images/icon-xc.png" alt="">
+            <h3 class="text-white">戏语金方之<span class="text-danger">升级宣传片</span></h3>
+          </div>
+          <div class="text-white" style="text-indent: 2em;">
+            <p class="mb-0">
+              我们还发现很多客户处在这样一个阶段，例如：公司经过多年的发展，
+              已经在行业内具备比较不错的规模和实力，需要比较专业的团队来系统的做一条企业宣传片，
+              用在企业展会、内部展播、企业官网等各个渠道。
+            </p>
+            <p class="mb-0">
+              今年对于企业而言是一个比较有纪念意义的年份，是周年庆典也取得了特别重要的发展成就，
+              企业的实力已经开始迈入一个新的层次，需要一条提气的宣传片让人看了有这样的成长感受。
+              企业有一场特别重要的活动，需要一系列的片子现场播放，需要打包制作。
+            </p>
+            <p class="mb-0">
+              企业有一系列的产品，每一种产品都需要一分钟的短片进行呈现，需要集中打包制作。
+            </p>
+            <p class="mb-0">
+              企业原有的宣传片已经用了多年，现在企业的发展已经有了很多变化，需要重新拍摄制作一条全新的宣传片进行替换。
+            </p>
+            <p class="mb-0">
+              公司打算做一个属于自己公司的MV，公司的人自己唱，需要拍摄。
+            </p>
+            <p class="mb-0">
+              对于客户企业的上述需求，我们也曾多次的经历和面对，更容易站在客户实际需求的角度我客户企业打造视频影片。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="container mt-5">
+    <div>
+      <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 px-5">
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">升级宣传片——向日葵</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">升级宣传片——向日葵</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">升级宣传片——向日葵</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">升级宣传片——向日葵</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">升级宣传片——向日葵</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">升级宣传片——向日葵</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-12 col-lg-8 px-0">
+        <h3 class="py-3">——戏语金方之<span class="text-danger">高端宣传片</span></h3>
+        <div class="bg-dark p-5 text-white mb-4" style="text-indent: 2em;">
+          <p class="mb-0">
+            伴随着客户企业的不断发展壮大，对视频影片的要求也越来越高，例如：我们是一家新型的互联网企业，
+            有一整套创新的系统服务，也是整合了行业资源的平台，需要影片运用实拍和特效结合的方式，
+            把平台的优势形象直观的阐述，也让人明白服务系统的优势。
+          </p>
+          <p class="mb-0">
+            我们集团新成了了一家新公司，开展了一系列的新业务，需要一条新的宣传视频给政府以及合作伙伴观看，
+            要借势提到集团公司，但也要凸显新公司的资源优势和业务内容。
+          </p>
+          <p class="mb-0">
+            我们是高新技术公司，跟世界知名企业有合作，
+            所提供的技术服务在整个国内都是领先的需要运用视频的方式把我们的技术优势、公司实力、
+            团队实力讲述清楚，让客户企业有非常直观的感受。
+          </p>
+          <p class="mb-0">
+            我们公司规模非常的大，在很多城市都有生产基地，拍摄宣传片的时候都要拍到，
+            而且宣传片要有一些创新，体现出公司在这个领域里的一系列的创新局促，以及多年来取得的行业优势。
+          </p>
+          <p class="mb-0">
+            我们知道，我们的首要任务是深度理解客户企业的实际需求，从而在此基础上位客户制作更高性价比的视频影片。
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 px-0 text-center">
+        <img class="img-fluid" style="height: 550px;" src="./images/gd01.png" alt="">
+      </div>
+    </div>
+    <div>
+      <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 px-5 pt-3">
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">高端宣传片——灯下</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">高端宣传片——灯下</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">高端宣传片——灯下</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">高端宣传片——灯下</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">高端宣传片——灯下</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100" style="border: 0;">
+            <img src="./images/04.jpg" class="card-img-top" alt="...">
+            <div class="card-body pl-0">
+              <p class="card-text">高端宣传片——灯下</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="container-fluid" style="background: url(./images/cy-back.png);background-size: cover;">
+    <div class="container pb-5">
+      <div class="row" style="padding-top: 80px;">
+        <div class="col-12 col-lg-6 pb-2">
+          <img class="img-fluid" src="./images/video.png" alt="">
+        </div>
+        <div class="col-12 col-lg-6">
+          <h3 class="border-bottom pb-4 text-white" style="text-indent: 0.7em;">戏语金方之<span class="text-danger">创意宣传片</span></h3>
+          <div style="text-indent: 2em;">
+            <p>
+              初次以外，我们还遇到客户企业的更多其他独特需求，例如：TVC电视广告，作为企业最为重要的营销传播工具，投放的渠道已经越来越多样化，
+              影片的内容形式也根据媒体的不同有了许多不同的要求。我们坚持打造性价比一流的电视广告，让产品和服务都得到客户的认可。
+            </p>
+            <p>
+              微电影/栏目剧，微电影跟栏目剧很像，都是一个有故事的宣传片，也有一种说法是把广告讲成了感人的故事。
+              无论做到上述这一点有多么的不容易，但这都是影片的投资方所要达到的根本目的。
+              面对这样的客户需求，我们每一次都坚持让自己再想想、再想想，
+              是否足够的新鲜、感动，让人眼前一亮。也因此，戏语金方在这一领域，同样拥有卓越建树。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="container mt-5">
+    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 px-5">
+      <div class="col mb-4">
+        <div class="card h-100" style="border: 0;">
+          <img src="./images/06.jpg" class="card-img-top" alt="...">
+          <div class="card-body pl-0">
+            <p class="card-text">创意宣传片—三剑客</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100" style="border: 0;">
+          <img src="./images/06.jpg" class="card-img-top" alt="...">
+          <div class="card-body pl-0">
+            <p class="card-text">创意宣传片—三剑客</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100" style="border: 0;">
+          <img src="./images/06.jpg" class="card-img-top" alt="...">
+          <div class="card-body pl-0">
+            <p class="card-text">创意宣传片—三剑客</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100" style="border: 0;">
+          <img src="./images/06.jpg" class="card-img-top" alt="...">
+          <div class="card-body pl-0">
+            <p class="card-text">创意宣传片—三剑客</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100" style="border: 0;">
+          <img src="./images/06.jpg" class="card-img-top" alt="...">
+          <div class="card-body pl-0">
+            <p class="card-text">创意宣传片—三剑客</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100" style="border: 0;">
+          <img src="./images/06.jpg" class="card-img-top" alt="...">
+          <div class="card-body pl-0">
+            <p class="card-text">创意宣传片—三剑客</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-2">
+      <div class="text-center">
+        <h3>联系我们</h3>
+        <span class="text-black-50">我们将与您一起创造一个愉快的活动拍摄剪辑合作体验。</span>
+      </div>
+      <div class="row pt-4">
+        <div class="col-12 col-lg-6 pb-5">
+          <ul class="list-inline" style="line-height: 2.2;">
+            <li>上海戏语金方广告有限公司·企业宣传视频制作超市</li>
+            <li>电 话：400-632-1586</li>
+            <li>微 信：137 9535 2693</li>
+            <li>地 址：上海市嘉定区和静东路75弄151号</li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 pb-3">
+          <img class="img-fluid" src="./images/contact01.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <footer class="py-4 text-center bg-dark text-white">
+    <span>Copyright ©2019-2020 上海戏语金方广告有限公司 版权所有 沪ICP备13042995号-1</span>
+  </footer>
+</body>
+
+</html>
